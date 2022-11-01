@@ -1,0 +1,19 @@
+DTO
+Student
+    nume
+    nr matricol
+
+StudentDTO
+    String nume
+    String numarMatricol
+
+
+record vs class
+record face egalitate intre atributele clasei, class face egalitate la referinte
+
+entity = sa putem identifica unic o instanta
+
+empty       cart    = id
+invalidated cart    = id, itemList, reason
+validated   cart    = id, itemList, CLIENT
+paid        cart    = id, itemList, CLIENT, 
